@@ -1,0 +1,1 @@
+INDEX VERSION 1.126+Z:\Fall Semester 2011\CS 330\sstimej\.metadata\.plugins\org.eclipse.jdt.core

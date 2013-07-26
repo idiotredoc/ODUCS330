@@ -1,0 +1,23 @@
+Undergraduate enrollments
+CS 355
+    23272 Line, S.                                  enrollment: 1
+
+
+
+Graduate Enrollments
+CS 571
+    22000 Caro, Virgil                              enrollment: 2
+    22002 Caro, Virgil                              enrollment: 2
+CS 571
+22000:Caro, Virgil:	2 students
+	Arnold, Hayley
+	Aiken, Roberto
+
+22002:Caro, Virgil:	2 students
+	Belur, Shirley
+	Aiken, Roberto
+
+CS 355
+23272:Line, S.:	1 students
+	Squyres, Kristen
+

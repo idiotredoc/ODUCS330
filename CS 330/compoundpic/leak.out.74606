@@ -1,0 +1,7 @@
+# starting Fri Oct 28 21:18:58 2011
+# memory overrun protection of 4 Bytes
+# initializing new memory with 0xAA
+# sweeping deleted memory with 0xEE
+# aborts on OVERWRITE_MEMORY 
+# not thread save; if you use threads, recompile with -DTHREAD_SAVE
+# internal buffer now 32768

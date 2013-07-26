@@ -1,0 +1,33 @@
+package SpreadSheetJ.Model;
+
+/*
+import SpreadSheetJ.Model.Value;
+import SpreadSheetJ.Model.NumericValue;
+import SpreadSheetJ.Model.StringValue;
+import SpreadSheetJ.Model.ErrorValue;
+*/
+
+class TestValues {
+
+
+    static void check (Value v)
+    {
+	System.out.println (v.valueKind());
+	for (int w = 1; w < 80; w *= 2) {
+	    System.out.println ("" + w + ": [" + v.render(w) + "]");
+	}
+    }
+
+    public static void main(String[] args)
+    {
+	check (new NumericValue(0.0));
+	check (new NumericValue(-1.0));
+	check (new NumericValue(-1.0E21));
+	check (new NumericValue(1.23456789E-21));
+	
+	check (new StringValue("Hello"));
+	
+	check (new ErrorValue());
+    }
+}
+

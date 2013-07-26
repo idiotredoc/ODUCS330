@@ -1,0 +1,116 @@
+# If this log is to be used for incremental obfuscation / patch generation, 
+# add any '.class', '.method', '.field' and '.attribute' restrictions here:
+
+
+#-DO-NOT-EDIT-BELOW-THIS-LINE------------------DO-NOT-EDIT-BELOW-THIS-LINE--
+#
+# RetroGuard v2.3.1, by Retrologic Systems - www.retrologic.com
+#
+# Logfile created on Thu Dec 08 19:42:00 EST 2011
+#
+# Jar file to be obfuscated:           temp.jar
+# Target Jar file for obfuscated code: CS330_F11_LifeThreads.jar
+# RetroGuard Script file used:         (none, defaults used)
+#
+#
+# Memory in use after class data structure built: 11406232 bytes
+# Total memory available                        : 2028404736 bytes
+#
+#
+# Obfuscated name overloading frequency:
+#  'a'   	used 22 times	(62%)
+#  'if'   	used 7 times	(20%)
+#  'do'   	used 4 times	(11%)
+#  'for'   	used 1 times	(2%)
+#  'int'   	used 1 times	(2%)
+#  Other names (each used in <1% of mappings) used a total of 0 times (3%)
+#
+#
+# Names reserved from obfuscation:
+#
+.field LifeView$1/this$0 LLifeView;
+.class LifeView
+.field LifeView/generationMax I
+.field LifeView/canvas Ljavax/swing/JPanel;
+.field LifeView/sizeDisplay Ljavax/swing/JLabel;
+.field LifeView/colorMap [Ljava/awt/Color;
+.field LifeView/generationDisplay Ljavax/swing/JLabel;
+.field LifeView/generationCount I
+.field LifeView/modelSize I
+.field LifeView/stop Z
+.field LifeView/changes Z
+.field LifeView/theModel LLifeModel;
+.field LifeView/threads Ljava/lang/Thread;
+.class Life
+.field Life/initialPic Ljava/awt/Choice;
+.field Life/inApplet Z
+.field Life/viewer LLifeView;
+.method Life/main ([Ljava/lang/String;)V
+.class LifeApplet
+.field LifeApplet/window LLife;
+#
+#
+# Obfuscated name mappings (some of these may be unchanged due to polymorphism constraints):
+#
+.class_map LifeView$1 1
+.method_map LifeView$1/update (Ljava/awt/Graphics;)V update
+.method_map LifeView$1/paint (Ljava/awt/Graphics;)V paint
+.method_map LifeView/getPreferredSize ()Ljava/awt/Dimension; getPreferredSize
+.method_map LifeView/access$000 (LLifeView;)Ljavax/swing/JPanel; a
+.method_map LifeView/setModelSize (I)V a
+.method_map LifeView/setGenerationCount (I)V if
+.method_map LifeView/start ()V a
+.method_map LifeView/reset (Ljava/lang/String;)V a
+.method_map LifeView/nextGeneration ()V if
+.method_map LifeView/run ()V run
+.method_map LifeView/setMaxGenerations (I)V do
+.method_map LifeView/getMaxGenerations ()I do
+.method_map LifeView/access$100 (LLifeView;Ljava/awt/Graphics;)V a
+.method_map LifeView/paintCanvas (Ljava/awt/Graphics;)V a
+.method_map LifeView/getModelSize ()I for
+# trimmed method LifeView/runGenerations ()V
+.class_map Life$9 9
+.field_map Life$9/this$0 a
+.method_map Life$9/windowClosing (Ljava/awt/event/WindowEvent;)V windowClosing
+.class_map Life$8 8
+.field_map Life$8/this$0 a
+.method_map Life$8/actionPerformed (Ljava/awt/event/ActionEvent;)V actionPerformed
+.class_map Life$7 7
+.field_map Life$7/this$0 a
+.method_map Life$7/actionPerformed (Ljava/awt/event/ActionEvent;)V actionPerformed
+.class_map Life$6 6
+.field_map Life$6/this$0 a
+.method_map Life$6/actionPerformed (Ljava/awt/event/ActionEvent;)V actionPerformed
+.class_map Life$5 5
+.field_map Life$5/this$0 a
+.method_map Life$5/actionPerformed (Ljava/awt/event/ActionEvent;)V actionPerformed
+.class_map Life$4 4
+.field_map Life$4/this$0 a
+.method_map Life$4/actionPerformed (Ljava/awt/event/ActionEvent;)V actionPerformed
+.class_map Life$3 3
+.field_map Life$3/this$0 a
+.method_map Life$3/actionPerformed (Ljava/awt/event/ActionEvent;)V actionPerformed
+.class_map Life$2 2
+.field_map Life$2/this$0 a
+.method_map Life$2/actionPerformed (Ljava/awt/event/ActionEvent;)V actionPerformed
+.class_map Life$1 1
+.field_map Life$1/this$0 a
+.method_map Life$1/itemStateChanged (Ljava/awt/event/ItemEvent;)V itemStateChanged
+.method_map Life/access$100 (LLife;)LLifeView; a
+.method_map Life/access$000 (LLife;)Ljava/awt/Choice; if
+.method_map Life/access$200 (LLife;)Z do
+.class_map LifeModel a
+.field_map LifeModel/cells a
+.field_map LifeModel/theSize if
+.method_map LifeModel/key (II)Ljava/lang/Integer; a
+.method_map LifeModel/reset (D)V a
+.method_map LifeModel/reset ()V a
+.method_map LifeModel/reset (I)V a
+.method_map LifeModel/getCell (II)I if
+.method_map LifeModel/nextGeneration ()V if
+.method_map LifeModel/setSize (I)V if
+# trimmed method LifeModel/getSize ()I
+.method_map LifeApplet/stop ()V stop
+.method_map LifeApplet/destroy ()V destroy
+.method_map LifeApplet/start ()V start
+.method_map LifeApplet/init ()V init

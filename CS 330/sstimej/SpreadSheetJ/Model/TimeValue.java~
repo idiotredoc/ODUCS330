@@ -1,0 +1,16 @@
+package SpreadSheetJ.Model;
+
+
+//Time values in the spreadsheet.
+
+public
+class TimeValue extends Value
+{
+	private static final String theValueKindName = new String("Time");
+
+	
+	//** Insert your code here
+	
+
+}
+
